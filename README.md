@@ -2,7 +2,7 @@
 
 v8_monolith provides pre-built docker images for [v8 js engine][1]. The images are uploaded to [Docker Hub][2]. Dockerfile can be found on [GitHub repo][3]
 
-v8 libraries are built as an all-in-one static library with `g++` without any dependency `libstdc++` shipped with `g++`.
+v8 libraries are built as an all-in-one static library with `g++` without any dependencies except `libstdc++` (the standard C++ library shipped with `g++`)
 
 ## Installation Location
 V8 library is installed at `/usr/local/lib/libv8_monolith.a`, headers are installed in `/usr/local/include/v8`.
